@@ -8,6 +8,7 @@ import java.sql.SQLException;
 
 public class Auto {
     public static void main(String[] args) {
+        System.out.println("测试");
         //1) 注册驱动
         Connection connection = null;
         PreparedStatement ps = null;
